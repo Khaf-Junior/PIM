@@ -14,22 +14,8 @@
     }
 </style>
 <body>
-       <?php
-        include './database.php';
-            if($_SERVER['REQUEST_METHOD' == "POST"]){
-                $email = $_POST['email'];
-                $mdp = $_POST['mdp'];
-                echo $email .' _ ' . $mdp; 
-            }
-       ?>
+       
     <div class="form">
-        <!-- <?php
-            if(isset($_POST['ok'])){
-                if($error_message){
-                    ?><p style="color: red;"><?php echo $error_message ?></p><?php
-                   }
-            }
-        ?> -->
         <form action="" method="POST">
         <label for="email">Email</label><br><br>
             <input type="email" name="email" id="email" required placeholder="Entrez votre email...">
