@@ -19,7 +19,7 @@
         <form action="traitement.php" method="POST">
 
             <label for="prenom">Prenom</label><br><br>
-            <input type="text" name="prenom" id="prenom" required placeholder="Entrez votre prenopm...">
+            <input type="text" name="prenom" id="prenom" required placeholder="Entrez votre prenom...">
             <br><br>
 
             <label for="nom">Nom</label><br><br>
