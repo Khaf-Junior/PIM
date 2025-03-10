@@ -11,7 +11,7 @@ try {
 
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    echo "Connexion réussie avec PDO !";
+    // echo "Connexion réussie avec PDO !";
 } catch (PDOException $e) {
    
     echo "Erreur de connexion : " . $e->getMessage();
