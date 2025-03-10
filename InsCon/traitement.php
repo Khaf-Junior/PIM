@@ -19,6 +19,9 @@ if(isset($_POST['ok'])){
             "MotDePasse" => $mdp
         )
         );
+
+        echo '<br><br>' . "Informations transmises avec succées !";
+        
 }
 
 
