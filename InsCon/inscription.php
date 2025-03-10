@@ -35,7 +35,7 @@
             <br><br>
 
             <label for="mdp">Mot de passe</label>
-            <input type="password" name="mdp" id="mdp" required placeholder="">
+            <input type="password" name="mdp" id="mdp" required placeholder="Entrez votre mot de passe...">
             <br><br>
 
             <input type="submit" name="ok" id="ok" value="M'inscrire">
