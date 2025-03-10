@@ -39,6 +39,7 @@
             <br><br>
 
             <input type="submit" name="ok" id="ok" value="M'inscrire">
+            <p>Vous avez un compte ? <button><a href="connexion.php">Me connecter</a></button></p>
         </form>
     </div>
 </body>
