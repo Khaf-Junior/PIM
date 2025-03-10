@@ -7,7 +7,7 @@
 </head>
 <style>
     .form{
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -18,23 +18,23 @@
         <h2>Inscrivez vous !</h2>
         <form action="traitement.php" method="POST">
 
-            <label for="prenom">Prenom</label>
+            <label for="prenom">Prenom</label><br><br>
             <input type="text" name="prenom" id="prenom" required placeholder="Entrez votre prenopm...">
             <br><br>
 
-            <label for="nom">Nom</label>
+            <label for="nom">Nom</label><br><br>
             <input type="text" name="nom" id="nom" required placeholder="Entrez votre nom...">
             <br><br>
 
-            <label for="pseudo"></label>
+            <label for="pseudo">Pseudo</label><br><br>
             <input type="text" name="pseudo" id="pseudo" required placeholder="Entrez votre pseudo...">
             <br><br>
 
-            <label for="email">Email</label>
+            <label for="email">Email</label><br><br>
             <input type="email" name="email" id="email" required placeholder="Entrez votre email...">
             <br><br>
 
-            <label for="mdp">Mot de passe</label>
+            <label for="mdp">Mot de passe</label><br><br>
             <input type="password" name="mdp" id="mdp" required placeholder="Entrez votre mot de passe...">
             <br><br>
 
