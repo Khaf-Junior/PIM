@@ -9,3 +9,4 @@ CREATE TABLE utilisateurs(
     Email VARCHAR(100) NOT NULL UNIQUE,
     MotDePasse VARCHAR(100) NOT NULL
 );
+

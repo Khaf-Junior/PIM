@@ -14,8 +14,36 @@
     }
 </style>
 <body>
+    <?php
+            include './database.php';
+
+            if($_SERVER["REQUEST_METHOD"] == "POST"){
+                $email = $_POST['email'];
+                $mdp = $_POST['mdp'];
+                if($email != "" && $mdp != ""){
+                    $sql = "SELECT * FROM utilisateurs WHERE Email = '$email' AND MotDePasse = '$mdp' ";
+                    $requete = $bdd->query($sql);
+                    $reponse = $requete->fetch();
+                    if(isset($reponse) && $reponse != FALSE){
+                        header("Location: index.php");
+                        exit();
+                    }else{
+                        $error_message = "Email ou mot de passe incorrect";
+                    }
+                }
+            }
+
+    ?>
+
     <div class="form">
         <h2>Connectez-vous !</h2>
+        <?php 
+            if(isset($_POST['ok'])){
+                if($error_message){
+                    ?><p style="color: red;"><?php echo $error_message ?></p>
+            <?php    }
+            }
+        ?>
         <form action="connexion.php" method="POST">
 
             <label for="email">Email</label><br><br>
