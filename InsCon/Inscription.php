@@ -45,6 +45,7 @@
             <br><br>
 
             <input type="submit" name="ok" id="ok">
+            <p>Vous avez uniqid compte ? <a href="./connexion.php">Inscrivez vous !</a></p>
         </form>
     </div>
 </body>
