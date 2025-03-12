@@ -54,7 +54,7 @@
             <br><br>
 
             <input type="submit" name="ok" id="ok" value="Se connecter">
-            <p>Vous n'avez pas de compte ? <a href="./Inscription.php">Inscrivez vous !</a></p>
+            <p>Vous n'avez pas de compte ? <button><a href="./Inscription.php">Inscrivez vous !</a></button></p>
         </form>
     </div>
 </body>
